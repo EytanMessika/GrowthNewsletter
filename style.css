@@ -1,0 +1,43 @@
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-image: url('assets/home-banner.jpg');
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 65px;
+  }
+.banner  p {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgba(252, 252, 252, 0.9);
+    margin-bottom: 35px;
+  }
+
+#newsletterform-btn{
+  border-radius: 3px;
+  background: #CB793A;
+  padding: 10px 40px;
+  border-color: #2A0C4E;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+#newsletterform-btn:hover {
+    opacity: 1;
+    }
+#form {
+  width: 400px;
+}
+#inputform {
+  border-radius: 3px;
+  border: none;
+}
